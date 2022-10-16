@@ -1,21 +1,20 @@
 /*
-  STYLES GUIDE:
-  0. RESET
-  1. LAYOUT
-  2. GENERIC ITEMS
-  3. PARTS OF WEB
-  4. LIST
-  5. FORM
-  6. ANIMATIONS
+  ORDEN PROGRAMAR:
+  0. RESETEO DEL HT
+  1. DISEÑO Y ESTILISMO
+  2. COMPONENTES EN GENERAL
+  3. CONEXIONES WEB
+  4. LISTAR
+
   ----------
-  COLORS:
+  COLORES QUE USAMOS:
     color1 => #2c3e50;
     color2 => #34495e;
     color3 => #3498db;
     color4 => #fff;
 */
 
-/* 0 RESET */
+/* 0 RESET OBTENIDO DE: */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -65,7 +64,7 @@ table {
 	border-spacing: 0;
 }
 
-/* 1 LAYOUT */
+/* 1 */
   body { text-align: center; font: 300 20px/1.7 'Roboto Condensed'; }
   .header { display: flex; justify-content: center; align-items: center; }
 
@@ -75,7 +74,7 @@ table {
 
     .list-services {display: flex; align-items: center; justify-content: center;}
     .list-services figure { display: flex; justify-content: center; align-items: center; flex-flow: column;}
-  /* 2 GENERIC ITEMS */
+  /* 2 */
 
     .header { height: 450px; background: url(../images/148.jpg) no-repeat center top; background-size: cover;}
     .navbar { height: 63px; background: #2c3e50; border-bottom: 1px dashed #3498db;}
@@ -85,7 +84,7 @@ table {
 
     .btn { border: 2px solid #fff; padding: 10px 40px; display: inline-block; text-decoration: none; color: #fff;}
 
-  /* 3 PARTS OF WEB */
+  /* 3 */
     .content { padding: 80px 0;}
 
       .who {background: #2c3e50; color: #fff;}
@@ -99,7 +98,7 @@ table {
       .localization {color: #34495e; padding-bottom: 0;}
         .localization .map img {max-width: 100%; width: 100%;}
 
-  /* 3 LIST  */
+  /* 4 */
 
     .list-services figure { position: relative; width: 150px; height: 190px;}
     .list-services figure:after {content: ""; position: absolute; top: 0; left: 0; border: 50%; z-index: 0; background: #fff; width: 150px; height: 150px;}
@@ -107,4 +106,4 @@ table {
     .list-services li { padding: 0 30px; }
     .list-services figcaption { position: relative; left: 0; right: 0; bottom: -40px;}
 
-  /* 3 ANIMATIONS */
+ 
